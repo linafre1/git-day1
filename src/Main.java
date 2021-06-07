@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.print(numberIncrease());
         System.out.print(numbersMultiply());
-        System.out.print(numbersMultiply());
+        System.out.print(numberDecrease());
 
     }
     public static int numberIncrease(){
