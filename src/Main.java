@@ -6,10 +6,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.print(numberIncrease());
         System.out.print(numbersMultiply());
+        System.out.print(numbersMultiply());
 
     }
     public static int numberIncrease(){
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a number to increase: ");
         int n = input.nextInt();
         n++;
         return n;
@@ -22,5 +23,12 @@ public class Main {
         int n2 = input.nextInt();
         int sum = (n1 * n2);
         return sum;
+    }
+
+    public static int numberDecrease(){
+        System.out.print("Enter a number to decrease: ");
+        int n = input.nextInt();
+        n--;
+        return n;
     }
 }
