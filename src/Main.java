@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.print(numberIncrease());
+        System.out.print(numbersMultiply());
 
     }
     public static int numberIncrease(){
@@ -12,5 +13,14 @@ public class Main {
         int n = input.nextInt();
         n++;
         return n;
+    }
+
+    public static int numbersMultiply(){
+        System.out.print("Enter the first number: ");
+        int n1 = input.nextInt();
+        System.out.print("Enter the second number: ");
+        int n2 = input.nextInt();
+        int sum = (n1 * n2);
+        return sum;
     }
 }
