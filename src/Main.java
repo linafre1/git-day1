@@ -8,9 +8,16 @@ public class Main {
 
     }
     public static int numberIncrease(){
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a number to increase: ");
         int n = input.nextInt();
         n++;
+        return n;
+    }
+
+    public static int numberDecrease(){
+        System.out.print("Enter a number to decrease: ");
+        int n = input.nextInt();
+        n--;
         return n;
     }
 }
